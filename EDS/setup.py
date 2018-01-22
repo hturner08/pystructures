@@ -1,0 +1,21 @@
+setup(name='EDS',
+      version='0.1',
+      description='Adds new data structures(Binary Trees, Heaps, Queues, Stacks, Hashes, Lists)',
+      long_description='Really, the funniest around.',
+      classifiers=[
+        'Development Status :: 3 - Alpha',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3.6',
+        'Topic :: Computer Science :: Data Structures',
+      ],
+      keywords='',
+      url='https://github.com/hturner08/ExtendedDataStructures',
+      author='Sciencewiz08',
+      author_email='hturner@andover.edu',
+      license='MIT',
+      packages=find_packages(),
+      install_requires=[
+          'markdown',
+      ],
+      include_package_data=True,
+      zip_safe=False)
