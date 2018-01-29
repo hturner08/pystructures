@@ -1,0 +1,7 @@
+Because I've realized a lot of my project is in-depth research into optimization,
+I will keep a log of the research I do to supplement my commits.
+Weekend of 1/27/2018
+-Reviewed built-in data structure source code in cpython
+-C practice: Generic implementation of stack and linked lists
+-Research stacks, decided I will implement stacks using a linked lists
+-Began writing my stack.c

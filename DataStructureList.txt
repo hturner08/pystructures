@@ -1,9 +1,8 @@
-List:
-Sets
-Containers
-Stacks
-Queues
-Double-ended Queues
-Priority Queues
-Trees
-Graphs
+-List
+-Sets
+-Stacks
+-Queues
+  -Double-ended Queues
+  -Priority Queues
+-Trees
+-Graphs
