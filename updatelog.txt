@@ -5,3 +5,6 @@ Weekend of 1/27/2018
 -C practice: Generic implementation of stack and linked lists
 -Research stacks, decided I will implement stacks using a linked lists
 -Began writing my stack.c
+1/29/2018
+-Spent two hours working on a stack struct before finding an effective open source library
+-Will customize and then wrap in C, better than starting from scratch
