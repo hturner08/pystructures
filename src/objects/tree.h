@@ -5,12 +5,19 @@ typedef struct tree_s Tree;
 
 typedef struct tree_conf_s{
 
-}
+}TreeConf
 typedef struct tree_iter_s{
 
-}
+}TreeIter;
 
+typedef struct node_s Node;
+
+typedef struct node_conf_s{
+
+}
 enum cc_stat  tree_new             (Tree **out);
+void          tree_conf_init       (Tree *conf);
+enum cc_stat  tree_new_conf        (Tree const * const conf, Stack **out);
 
 void          tree_destroy         (Tree *tr);
 
@@ -32,15 +39,6 @@ enum cc_stat  tree_copy_deep       (Tree *tr, void *(*cp) (void*), Tree **out);
 size_t        tree_contains        (Array *ar, void *element);
 size_t        tree_contains_value  (Array *ar, void *element, int (*cmp) (const void*, const void*));
 size_t        tree_size            (Array *ar);
-
-enum cc_stat  array_index_of        (Array *ar, void *element, size_t *index);
-void          array_sort            (Array *ar, int (*cmp) (const void*, const void*));
-
-void          array_map             (Array *ar, void (*fn) (void*));
-void          array_reduce          (Array *ar, void (*fn) (void*, void*, void*), void *result);
-
-enum cc_stat  array_filter_mut      (Array *ar, bool (*predicate) (const void*));
-enum cc_stat  array_filter          (Array *ar, bool (*predicate) (const void*), Array **out);
 
 void          tree_iter_init       (TreeIter *iter, Tree *tr);
 enum cc_stat  tree_iter_next       (TreeIter *iter, void **out);
