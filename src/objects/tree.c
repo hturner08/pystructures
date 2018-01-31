@@ -1,4 +1,5 @@
 #include "tree.h"
+#include "node.c"
 
 
 struct tree_s{
@@ -9,5 +10,5 @@ struct tree_s{
 void tree_destroy_cb(Tree *tree, void (*cb) (void*))
 {
     tree_destroy_cb(stack->v, cb);
-    free(stack);
+    free(tree);
 }
