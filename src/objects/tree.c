@@ -9,6 +9,6 @@ struct tree_s{
 }
 void tree_destroy_cb(Tree *tree, void (*cb) (void*))
 {
-    tree_destroy_cb(stack->v, cb);
+    tree_destroy_cb(tree->v, cb);
     free(tree);
 }

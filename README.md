@@ -1,12 +1,15 @@
 # ExtendedDataStructures
 The goal of project is to aid developers in the use of data structures.
 
+##Table of Contents
+
+
 ## Python Builtin Data Structures
 The builtin data structures in Python: lists, tuples, dictionaries, strings, sets and frozensets.
 
 Lists, strings and tuples are ordered sequences of objects. Unlike strings that contain only characters, list and tuples can contain any type of objects. Lists and tuples are like arrays. Tuples like strings are immutables. Lists are mutables so they can be extended or reduced at will. Sets are mutable unordered sequence of unique elements whereas frozensets are immutable sets.
 
-## Set-up
+## Pystructure Additions
 This package adds several other important data structures to python, including the following:
 * List
 * Sets
@@ -24,3 +27,5 @@ This package adds several other important data structures to python, including t
   * Purpose/main feature of your pull request
   * Screenshot confirming the passing of all unit tests(Not currently a requirement)
   * Any suggestions you have for people following up on your pull request
+
+## Pull Request Suggestions
