@@ -20,6 +20,8 @@
 
 #ifndef COLLECTIONS_C_ARRAY_H
 #define COLLECTIONS_C_ARRAY_H
+#define DEFAULT_CAPACITY 8
+#define DEFAULT_EXPANSION_FACTOR 2
 
 #include "common.h"
 
