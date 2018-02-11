@@ -22,17 +22,43 @@ class Node:
         else:
             self.right.add_right(node)
             return true
-
-
+    #Uses depth first traversal, adds right child of removed node to bottom of
+    #left child's tree
+    def remove_Node(self, node):
+        if self.left is node:
+            temp = self.left.right
+            self.left = self.left.left
+            self.left.add_left(self, node)
+            return True;
+        else if self.right is node:
+            tempt = self.right.right
+            self.right = self.right.left
+            self.right.add_left(self, node)
+            return True;
+        return False;
+    def depth_
 class Tree:
     def __init__(self, root = None):
         self.root = root
+    def add_Root(self, node):
+        if self.root == None:
+            self.root = node
+            return True
+        else:
+            node.left = self.root
+            self.root = node
+            return True
+        return False
     def add_Node(self, node):
         while True:
             if self.root.left == null:
                 self.root.left = node
                 return True
+            else if self.root.right == null:
+                self.root.right = node
+                return True
             else
                 return self.root.left.add_left(node)
         return false
     def remove_Node(self, node):
+        return self.root.remove_Node(self, node)
