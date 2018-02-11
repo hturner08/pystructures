@@ -36,7 +36,11 @@ class Node:
             self.right.add_left(self, node)
             return True;
         return False;
-    def depth_
+    def height(self):
+        if self.left is not None:
+            return 1 + self.left.height()
+
+
 class Tree:
     def __init__(self, root = None):
         self.root = root
@@ -62,3 +66,14 @@ class Tree:
         return false
     def remove_Node(self, node):
         return self.root.remove_Node(self, node)
+    def look_up_Depth(self, node):
+
+    def look_up_Breadth(self, node):
+
+    def sort(self):
+
+    def balance(self):
+
+    def print_Tree_Depth(self):
+
+    def print_Tree_Breadth(self):
