@@ -24,9 +24,15 @@ class BinaryTreeTest(unittest.TestCase):
 
 class BinarySearchTreeTest(unittest.TestCase):
     def intialize(self):
-
+        self.node_one = Node(content = 5)
+        self.node_two = Node(content = 4)
+        self.node_three = Node(content = 2)
+        self.node_four = Node(content = 10)
+        self.node_five = Node(content = -5)
+        self.node_six = Node(content = 20)
+        self.tree_one = BST_Tree(node_one)
     def test_methods(self):
-
+        self.assertTrue()
 class AVLTree(unittest.TestCase):
     def intialize(self):
 

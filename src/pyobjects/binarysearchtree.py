@@ -26,3 +26,4 @@ class BST_Tree(Tree):
             return True
         return False
     def add_Node(self, node):
+        if node.compareTo(self.root) == 1:
