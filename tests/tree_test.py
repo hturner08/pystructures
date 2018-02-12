@@ -3,13 +3,13 @@ import pytest
 
 class BinaryTreeTest(unittest.TestCase):
     def initialize(self):
-        self.node_one = new Node(content = 5)
-        self.node_two = new Node(content = 4)
-        self.node_three = new Node(content = 2)
-        self.node_four = new Node(content = 10)
-        self.node_five = new Node(content = -5)
-        self.node_six = new Node(content = 20)
-        self.tree_one = new Tree(node_one)
+        self.node_one = Node(content = 5)
+        self.node_two = Node(content = 4)
+        self.node_three = Node(content = 2)
+        self.node_four = Node(content = 10)
+        self.node_five = Node(content = -5)
+        self.node_six = Node(content = 20)
+        self.tree_one = Tree(node_one)
     def test_methods(self):
         self.assertTrue(self.tree_one.add_Node(node_four))
         self.assertTrue(self.tree_one.add_Node(node_two))
