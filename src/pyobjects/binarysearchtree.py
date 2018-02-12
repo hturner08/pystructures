@@ -1,4 +1,8 @@
+"""Implements a binary search tree: a type of tree that uses an ordering on the elements of some
+collection to efficiently search for items in that collection (average-case O(log n) time)."""
+
 from binarytree import Node, Tree
+
 
 class BST_Node(Node):
     def add_Node(self, node):

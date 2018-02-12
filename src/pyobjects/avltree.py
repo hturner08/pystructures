@@ -1,4 +1,8 @@
-from binarysearchtree import BST_Node,BST_Tree
+"""Implements the AVL Tree, a type of tree similar to red-black trees that uses additional structure
+to guarantee balance and reduce search time to O(log n) in the worst case."""
+
+from binarysearchtree import BST_Node, BST_Tree
+
 
 class AVL_Node(BST_Node):
     def update_Balance
