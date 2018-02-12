@@ -37,7 +37,7 @@ tree = new BinarySearchTree()
 2. If you wish to work with the cobjects folder, make sure you have the correct compiler installed. For Windows users, please dowload MinGW from http://www.mingw.org/. Mac OS users can install Apple Developer Tools which comes with the GNU Compiler Collection(You can run it using the gcc command in terminal).
 3. Make your changes and then submit a pull request to my master branch. Try to keep up-to-date with the master branch to allow minimum merge conflicts. In the pull request, please include the following:
   * Purpose/main feature of your pull request
-  * Screenshot confirming the passing of all unit tests(Not currently a requirement)
+  * Badge confirming the successful Travis CI build
   * Any suggestions you have for people following up on your pull request
 
 ## Pull Request Suggestions
