@@ -6,16 +6,16 @@ from binarytree import Node, Tree
 
 class BST_Node(Node):
     def add_Node(self, node):
-        if self.right is None && node.compare_To(self) == 1:
+        if self.right is None and node.compare_To(self) == 1:
             self.right = node
 
-        else if self.right is not None && node.compare_To(self) == 1:
+        else if self.right is not None and node.compare_To(self) == 1:
             self.right.add_Node(node)
 
-        else if self.left is None && node.compare_To(self) == -1:
+        else if self.left is None and node.compare_To(self) == -1:
             self.left = node
 
-        else if self.root.left is not None && node.compare_To(self) == -1:
+        else if self.root.left is not None and node.compare_To(self) == -1:
             self.left.add_Node(node)
 
         else:
@@ -44,16 +44,16 @@ class BST_Tree(Tree):
             return True
         return False
     def add_Node(self, node):
-        if self.root.right is None && node.compare_To(self.root) == 1:
+        if self.root.right is None and node.compare_To(self.root) == 1:
             self.root.right = node
 
-        else if self.root.right is not None && node.compare_To(self.root) == 1:
+        else if self.root.right is not None and node.compare_To(self.root) == 1:
             self.root.right.add_Node(node)
 
-        else if self.root.left is None && node.compare_To(self.root) == -1:
+        else if self.root.left is None and node.compare_To(self.root) == -1:
             self.root.left = node
 
-        else if self.root.left is not None && node.compare_To(self.root) == -1:
+        else if self.root.left is not None and node.compare_To(self.root) == -1:
             self.root.left.add_Node(node)
 
         else:
