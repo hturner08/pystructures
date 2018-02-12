@@ -4,9 +4,6 @@
 # ExtendedDataStructures
 The goal of project is to aid developers in the use of data structures.
 
-##Table of Contents
-
-
 ## Python Builtin Data Structures
 The builtin data structures in Python: lists, tuples, dictionaries, strings, sets and frozensets.
 
