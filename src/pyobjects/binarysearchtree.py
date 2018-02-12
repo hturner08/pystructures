@@ -1,7 +1,7 @@
 from binarytree import Node, Tree
 
 class BST_Node(Node):
-    def add_Node():
+    def add_Node(self, node):
         if
     #Comparison methods
     def compare_To(self, other):
@@ -25,4 +25,4 @@ class BST_Tree(Tree):
             self.root = node
             return True
         return False
-    def add_Node():
+    def add_Node(self, node):
