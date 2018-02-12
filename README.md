@@ -41,7 +41,7 @@ tree = new BinarySearchTree()
   * Any suggestions you have for people following up on your pull request
 
 ## Pull Request Suggestions
-###Finish implementing:
+### Finish implementing:
   * Binary Search Tree
   * AVL Tree(Balanced Binary Search Tree)
   * Red Black Tree
