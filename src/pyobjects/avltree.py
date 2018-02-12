@@ -4,20 +4,19 @@ class AVL_Node(BST_Node):
     def update_Balance
 
 class AVL_Tree(BST_Tree):
-    def add_Node(self):
-        def add_Node(self, node):
-    if currenk < currentNode.key:
-        if currentNode.hasLeftChild():
-                self._put(key,val,currentNode.leftChild)
+    def add_Node(self, node):
+        if currenk < currentNode.key:
+            if node.left is not None:
+                    self.add_Node(node.left)
+            else:
+                    node.left = TreeNode(key,val,parent=node)
+                    self.updateBalance(node.leftChild)
         else:
-                currentNode.leftChild = TreeNode(key,val,parent=currentNode)
-                self.updateBalance(currentNode.leftChild)
-    else:
-        if currentNode.hasRightChild():
-                self._put(key,val,currentNode.rightChild)
-        else:
-                currentNode.rightChild = TreeNode(key,val,parent=currentNode)
-                self.updateBalance(currentNode.rightChild)
+            if node.hasRightChild():
+                    self.add_Node(key,val,node.rightChild)
+            else:
+                    node.rightChild = TreeNode(key,val,parent=node)
+                    self.updateBalance(currentNode.rightChild)
 
 def update_Balance(self,node):
     if node.balanceFactor > 1 or node.balanceFactor < -1:
