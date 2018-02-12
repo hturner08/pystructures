@@ -23,10 +23,19 @@ class BinaryTreeTest(unittest.TestCase):
         self.assertFalse(self.tree_one.contains_Breadth(node_six))
 
 class BinarySearchTreeTest(unittest.TestCase):
+    def intialize(self):
+
+    def test_methods(self):
 
 class AVLTree(unittest.TestCase):
+    def intialize(self):
+
+    def test_methods(self):
 
 class RedBlackTree(unittest.TestCase):
+    def intialize(self):
+
+    def test_methods(self):
 
 
 if __name__ == '__main__':

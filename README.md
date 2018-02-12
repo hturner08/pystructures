@@ -41,3 +41,4 @@ tree = new BinarySearchTree()
   * Any suggestions you have for people following up on your pull request
 
 ## Pull Request Suggestions
+Check issues for pull request suggestions.
