@@ -1,3 +1,5 @@
+"""Implements a basic binary tree: a tree where each node can have two children."""
+
 class Tree:
     class Node:
         def __init__(self, content=None, left = None, right = None):
