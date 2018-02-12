@@ -11,18 +11,27 @@ Lists, strings and tuples are ordered sequences of objects. Unlike strings that 
 
 ## Pystructure Additions
 This package adds several other important data structures to python, including the following:
-* List
+* Arrays
 * Sets
 * Stacks
 * Queues
   * Double-ended Queues
   * Priority Queues
 * Trees
-* Graphs
+* Heaps
 
+## Usage
+```
+#import package
+import pystructures
+
+#You are now free to call objects
+tree = new BinarySearchTree()
+
+```
 ## Pull Request Steps
 1. Fork the repository and then clone to a local repository.
-2. Make sure you have the correct compiler installed. For Windows users, please dowload MinGW from http://www.mingw.org/. Mac OS users can install Apple Developer Tools which comes with the GNU Compiler Collection(You can run it using the gcc command in terminal).
+2. If you wish to work with the cobjects folder, make sure you have the correct compiler installed. For Windows users, please dowload MinGW from http://www.mingw.org/. Mac OS users can install Apple Developer Tools which comes with the GNU Compiler Collection(You can run it using the gcc command in terminal).
 3. Make your changes and then submit a pull request to my master branch. Try to keep up-to-date with the master branch to allow minimum merge conflicts. In the pull request, please include the following:
   * Purpose/main feature of your pull request
   * Screenshot confirming the passing of all unit tests(Not currently a requirement)
