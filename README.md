@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/hturner08/pystructures.svg?branch=master)](https://travis-ci.org/hturner08/pystructures)
-[!License](https://img.shields.io/github/license/hturner08/pystructures.svg)
+![License](https://img.shields.io/github/license/hturner08/pystructures.svg)
 ]
 # ExtendedDataStructures
 The goal of project is to aid developers in the use of data structures.
