@@ -1,4 +1,4 @@
-![Build Status](https://travis-ci.org/hturner08/pystructures.svg?branch=master)](https://travis-ci.org/hturner08/pystructures)
+![Build Status](https://travis-ci.org/hturner08/pystructures.svg?branch=master)]
 ![License](https://img.shields.io/github/license/hturner08/pystructures.svg)
 
 # ExtendedDataStructures
