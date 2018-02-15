@@ -20,6 +20,10 @@ class BST_Node(Node):
 
         else:
             return False
+
+    def delete_Node(self, node):
+        if self.right is None and self.left is None:
+            self = None
     #Comparison methods
     def compare_To(self, other):
         if self.content==other.content:
