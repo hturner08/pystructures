@@ -35,14 +35,14 @@ class BinarySearchTreeTest(unittest.TestCase):
         self.assertTrue()
 class AVLTree(unittest.TestCase):
     def intialize(self):
-
+        return True
     def test_methods(self):
-
+        return True
 class RedBlackTree(unittest.TestCase):
     def intialize(self):
-
+        return True
     def test_methods(self):
-
+        return True
 
 if __name__ == '__main__':
     unittest.main()
