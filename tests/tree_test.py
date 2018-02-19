@@ -17,7 +17,7 @@ class BinaryTreeTest(unittest.TestCase):
         self.assertTrue(tree_one.add_Root(node_five), msg="None")
         self.assertTrue(tree_one.contains_Depth(node_four), msg="None")
         self.assertTrue(tree_one.contains_Depth(node_five), msg="None")
-        self.assertFalsetree_one.contains_Depth(node_six), msg="None")
+        self.assertFalse*tree_one.contains_Depth(node_six), msg="None")
         self.assertTrue(tree_one.contains_Breadth(node_four), msg="None")
         self.assertTrue(tree_one.contains_Breadth(node_five), msg="None")
         self.assertFalse(tree_one.contains_Breadth(node_six), msg="None")
