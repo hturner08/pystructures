@@ -11,16 +11,16 @@ class BinaryTreeTest(unittest.TestCase):
         self.node_six = Node(content = 20)
         self.tree_one = Tree(node_one)
     def test_methods(self):
-        self.assertTrue(self.tree_one.add_Node(node_four), msg="None")
-        self.assertTrue(self.tree_one.add_Node(node_two), msg="None")
-        self.assertTrue(self.tree_one.add_Node(node_three), msg="None")
-        self.assertTrue(self.tree_one.add_Root(node_five), msg="None")
-        self.assertTrue(self.tree_one.contains_Depth(node_four), msg="None")
-        self.assertTrue(self.tree_one.contains_Depth(node_five), msg="None")
-        self.assertFalse(self.tree_one.contains_Depth(node_six), msg="None")
-        self.assertTrue(self.tree_one.contains_Breadth(node_four), msg="None")
-        self.assertTrue(self.tree_one.contains_Breadth(node_five), msg="None")
-        self.assertFalse(self.tree_one.contains_Breadth(node_six), msg="None")
+        self.assertTrue(tree_one.add_Node(node_four), msg="None")
+        self.assertTrue(tree_one.add_Node(node_two), msg="None")
+        self.assertTrue(tree_one.add_Node(node_three), msg="None")
+        self.assertTrue(tree_one.add_Root(node_five), msg="None")
+        self.assertTrue(tree_one.contains_Depth(node_four), msg="None")
+        self.assertTrue(tree_one.contains_Depth(node_five), msg="None")
+        self.assertFalsetree_one.contains_Depth(node_six), msg="None")
+        self.assertTrue(tree_one.contains_Breadth(node_four), msg="None")
+        self.assertTrue(tree_one.contains_Breadth(node_five), msg="None")
+        self.assertFalse(tree_one.contains_Breadth(node_six), msg="None")
 
 class BinarySearchTreeTest(unittest.TestCase):
     def intialize(self):
