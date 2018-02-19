@@ -2,15 +2,15 @@ import unittest
 import pytest
 
 class BinaryTreeTest(unittest.TestCase):
-    def initialize(self):
-        self.node_one = Node(content = 5)
-        self.node_two = Node(content = 4)
-        self.node_three = Node(content = 2)
-        self.node_four = Node(content = 10)
-        self.node_five = Node(content = -5)
-        self.node_six = Node(content = 20)
-        self.tree_one = Tree(node_one)
+
     def test_methods(self):
+        node_one = Node(content = 5)
+        node_two = Node(content = 4)
+        node_three = Node(content = 2)
+        node_four = Node(content = 10)
+        node_five = Node(content = -5)
+        node_six = Node(content = 20)
+        tree_one = Tree(node_one)
         self.assertTrue(tree_one.add_Node(node_four), msg="None")
         self.assertTrue(tree_one.add_Node(node_two), msg="None")
         self.assertTrue(tree_one.add_Node(node_three), msg="None")
