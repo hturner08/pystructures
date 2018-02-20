@@ -1,4 +1,4 @@
-from binarytree import Node
+from pyobjects.binarytree import Node, Tree
 
 
 #Implement using cobjects.array
