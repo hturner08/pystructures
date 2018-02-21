@@ -1,5 +1,5 @@
 #Alternate to cobjects.pqueue
-from pyobjects.binarytree import Node, Tree
+from . import Node, Tree
 
 from random import randint
 class Max_H_Node(Node):

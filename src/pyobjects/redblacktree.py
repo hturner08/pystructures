@@ -4,7 +4,7 @@ that guarantees immunity to the worst-case scenarios of binary trees: a linked l
 the tree is roughly balanced, which in the real world gives it very good performance for many
 things. Linux currently uses it for filesystem access, for example."""
 
-from pyobjects.binarytree import Node, Tree
+from . import Node, Tree
 
 
 class RBT_Node(Node):

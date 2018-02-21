@@ -9,20 +9,20 @@ class Node:
         self.content = content
 
     def add_left(self, node):
-        if self.left == None:
+        if self.left is None:
             self.left = node
-            return true
+            return True
         else:
             self.left.add_left(node)
-            return true
+            return True
 
     def add_right(self, node):
-        if self.right == None:
+        if self.right is None:
             self.right = node
-            return true
+            return True
         else:
             self.right.add_right(node)
-            return true
+            return True
     #Uses depth first traversal, adds right child of removed node to bottom of
     #left child's tree
     def remove_Node(self, node):
@@ -85,10 +85,10 @@ class Tree:
 
     def add_Node(self, node):
         while True:
-            if self.root.left == null:
+            if self.root.left is None:
                 self.root.left = node
                 return True
-            elif self.root.right == null:
+            elif self.root.right is None:
                 self.root.right = node
                 return True
             else:
@@ -109,7 +109,7 @@ class Tree:
             self.right.contains_Depth(node)
         return False
     def print_Tree_Depth(self):
-        System.out.println(self.root)
+        print(self.root)
         if self.root.left is not None:
             self.root.left.print_Tree_Depth()
         if self.root.right is not None:

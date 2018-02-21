@@ -1,10 +1,11 @@
 import unittest
 import pytest
+from . import Node, Tree
 
 class BinaryTreeTest(unittest.TestCase):
 
     def test_methods(self):
-        node_one = pyobjects.binarytree.Node(content = 5)
+        node_one = Node(content = 5)
         node_two = pyobjects.binarytree.Node(content = 4)
         node_three = pyobjects.binarytree.Node(content = 2)
         node_four = pyobjects.binarytree.Node(content = 10)
