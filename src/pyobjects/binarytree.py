@@ -99,14 +99,14 @@ class Tree:
         return self.root.remove_Node(self, node)
 
     def contains_Depth(self, node):
-        if self.left is not None:
-            if self.left is node:
+        if self.root.left is not None:
+            if self.root.left is node:
                 return True
-            self.left.contains_Depth(node)
-        if self.right is not None:
-            if self.right is node:
+            self.root.left.contains_Depth(node)
+        if self.root.right is not None:
+            if self.root.right is node:
                 return True
-            self.right.contains_Depth(node)
+            self.root.right.contains_Depth(node)
         return False
     def print_Tree_Depth(self):
         print(self.root)
