@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c288118b-e42a-4dec-859a-ba5bf1db7a0c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/__init__.py" afterPath="$PROJECT_DIR$/src/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pyobjects/binarysearchtree.py" afterPath="$PROJECT_DIR$/src/pyobjects/binarysearchtree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pyobjects/binarytree.py" afterPath="$PROJECT_DIR$/src/pyobjects/binarytree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/tree_test.py" afterPath="$PROJECT_DIR$/tests/tree_test.py" />
-    </list>
+    <list default="true" id="c288118b-e42a-4dec-859a-ba5bf1db7a0c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
