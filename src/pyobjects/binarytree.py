@@ -68,6 +68,10 @@ class Node:
         if self.right is not None:
             return 1 + self.left.height()
 
+    def __str__(self):
+        "String representation."
+        return str(self.contents)
+
 class Tree:
 
     def __init__(self, root = None):
