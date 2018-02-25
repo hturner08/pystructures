@@ -1,4 +1,4 @@
-import BST_Node, BST_Tree
+from .binarysearchtree import BST_Node, BST_Tree
 
 """Method somewhat based on tutorial: http://blog.coder.si/2014/02/how-to-implement-avl-tree-in-python.html
 Partial comments are pasted in for my own reference
@@ -180,9 +180,7 @@ class AVL_Node(BST_Node):
 
             # Rebalance tree
             self.rebalance()
-
-"""Following is directly copied from tutorial"""
-
+    """Following is directly copied from tutorial"""
     def inorder_traverse(self):
         """
         Inorder traversal of the tree
