@@ -306,17 +306,3 @@ class AVL_Tree(BST_Tree):
         result.extend(self.root.right.inorder_traverse())
 
         return result
-
-    def display(self, node=None, level=0):
-        if not node:
-            node = self.root
-
-        if node.right:
-            self.display(node.right, level + 1)
-            print ('\t' * level), ('    /')
-
-        print ('\t' * level), node
-
-        if node.left:
-            print ('\t' * level), ('    \\')
-            self.display(node.left, level + 1)

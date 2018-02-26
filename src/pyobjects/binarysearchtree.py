@@ -5,6 +5,7 @@ from . import Node, Tree
 
 
 class BST_Node(Node):
+
     def add_Node(self, node):
         if self.right is None and node.compare_To(self) == 1:
             self.right = node
@@ -134,7 +135,6 @@ class BST_Tree(Tree):
                     self.right.remove_Node(temp)
         else:
             self.root.node.remove_Node(node)
-            print("You're a fucking idiot there's no fucking root dumbass!")
 
     def rotate_right(self):
 
@@ -155,3 +155,17 @@ class BST_Tree(Tree):
         self.root = new_root
         old_root.right = new_left_sub
         new_root.left = old_root
+
+    def display(self, node=None, level=0):
+        if not node:
+            node = self.root
+
+        if node.right:
+            self.display(node.right, level + 1)
+            print ('\t' * level), ('    /')
+
+        print ('\t' * level), node
+
+        if node.left:
+            print ('\t' * level), ('    \\')
+            self.display(node.left, level + 1)
