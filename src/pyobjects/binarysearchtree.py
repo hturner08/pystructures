@@ -1,7 +1,7 @@
 """Implements a binary search tree: a type of tree that uses an ordering on the elements of some
 collection to efficiently search for items in that collection (average-case O(log n) time)."""
 
-from .binarytree import Node, Tree
+from . import Node, Tree
 
 
 class BST_Node(Node):
@@ -21,9 +21,43 @@ class BST_Node(Node):
         else:
             return False
 
-    def delete_Node(self, node):
-        if self.right is None and self.left is None:
-            self = None
+    def remove_Node(self, node):
+        if self.left is node:
+            if not self.left.left and not self.left.right:
+                self.left = None
+            elif not self.left.left:
+                self.left = self.left.right
+            elif not self.left.right:
+                self.left = self.left.left
+            else:
+                successor = self.left.right
+                while successor and successor.left:
+                    successor = successor.left
+                if successor:
+                    temp = successor
+                    self.left = successor
+                    self.left.right.remove_Node(temp)
+        elif self.right is node:
+            if not self.right.left and not self.right.right:
+                self.right = None
+            elif not self.right.left:
+                self.right = self.right.right
+            elif not self.right.right:
+                self.right = self.right.left
+            else:
+                successor = self.right.right
+                while successor and successor.left:
+                    successor = successor.left
+                if successor:
+                    temp = successor
+                    self.right = successor
+                    self.right.right.remove_Node(temp)
+        elif node.compareTo(self) == -1:
+            self.left.remove_Node(node)
+        elif node.compareTo(self) == 1:
+            self.right.remove_Node(node)
+        else:
+            return False
     #Comparison methods
     def compare_To(self, other):
         if self.content==other.content:
@@ -82,6 +116,25 @@ class BST_Tree(Tree):
         else:
             return False
 
+    def remove_Node(self, node):
+        if self.root is node:
+            if not self.left and not self.right:
+                self = None
+            elif not self.left:
+                self = self.right
+            elif not self.right:
+                self = self.left
+            else:
+                successor = self.right
+                while successor and successor.left:
+                    successor = successor.left
+                if successor:
+                    temp = successor
+                    self = successor
+                    self.right.remove_Node(temp)
+        else:
+            self.root.node.remove_Node(node)
+            print("You're a fucking idiot there's no fucking root dumbass!")
 
     def rotate_right(self):
 

@@ -42,9 +42,9 @@ tree = new pyobjects.BinarySearchTree()
   * Any suggestions you have for people following up on your pull request
 
 ## Pull Request Suggestions
-### Finish implementing:
+### * Finish implementing:
   * Binary Search Tree
   * Red Black Tree
-### Write unit tests for each data structure
-### Run SWIG library on wrapping files to wrap C library
-### Any of the current issues
+### * Write unit tests for each data structure
+### * Run SWIG library on wrapping files to wrap C library
+### * Any of the current issues
