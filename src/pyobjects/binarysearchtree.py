@@ -68,8 +68,8 @@ class BST_Node(Node):
         return -1
     # def updateFactor(self):
     #     self.balanceFactor = height(self.left) − height(self.right)
-    def rotate_right(self):
 
+    def rotate_right(self):
         new_root = self.left
         new_left_sub = self.left.right
         old_root = self
@@ -88,6 +88,7 @@ class BST_Node(Node):
         new_root.left = old_root
         self = new_root
 
+
 class BST_Tree(Tree):
     def add_Root(self, node):
         if self.root is None:
@@ -101,6 +102,7 @@ class BST_Tree(Tree):
             self.root = node
             return True
         return False
+
     def add_Node(self, node):
         if self.root.right is None and node.compare_To(self.root) == 1:
             self.root.right = node
