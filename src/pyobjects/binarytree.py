@@ -60,7 +60,9 @@ class Node:
                 node_list.append(self.right)
             else:
                 return True
-        node_list.pop().contains_Breadth(node)
+        if len(node_list)>0:
+            node_list.pop().contains_Breadth(node)
+        return False
 
     def height(self):
         if self.left is not None:
@@ -88,59 +90,67 @@ class Tree:
         return False
 
     def add_Node(self, node):
-        while True:
-            if self.root.left is None:
-                self.root.left = node
-                return True
-            elif self.root.right is None:
-                self.root.right = node
-                return True
-            else:
-                return self.root.left.add_left(node)
-        return false
+        if self.root:
+            while True:
+                if self.root.left is None:
+                    self.root.left = node
+                    return True
+                elif self.root.right is None:
+                    self.root.right = node
+                    return True
+                else:
+                    return self.root.left.add_left(node)
+            return false
+        else:
+            self.root = node
 
     def remove_Node(self, node):
         return self.root.remove_Node(self, node)
 
     def contains_Depth(self, node):
-        if self.root.left is not None:
-            if self.root.left is node:
-                return True
-            self.root.left.contains_Depth(node)
-        if self.root.right is not None:
-            if self.root.right is node:
-                return True
-            self.root.right.contains_Depth(node)
+        if self.root is node:
+            return True
+        else:
+            if self.root.left is not None:
+                if self.root.left is node:
+                    return True
+                self.root.left.contains_Depth(node)
+            if self.root.right is not None:
+                if self.root.right is node:
+                    return True
+                self.root.right.contains_Depth(node)
         return False
-    def print_Tree_Depth(self):
-        print(self.root)
-        if self.root.left is not None:
-            self.root.left.print_Tree_Depth()
-        if self.root.right is not None:
-            self.root.right.print_Tree_Depth()
-    #Eventually will implement using cobject.stack
-    def print_Tree_Breadth(self):
-        print(self.content)
-        node_list = []
-        if self.left is not None:
-            node_list.append(self.left)
-        if self.root.right is not None:
-            node_list.append(self.right)
-        node_list.pop().print_Tree_Breadth()
     #Eventually will implement using cobject.stack
     def contains_Breadth(self, node):
         node_list = []
-        if self.left is not None:
-            if self.left is not node:
-                node_list.append(self.left)
-            else:
-                return True
-        if self.right is not None:
-            if self.right is not node:
-                node_list.append(self.right)
-            else:
-                return True
-        node_list.pop().contains_Breadth(node)
+        if self.root is node:
+            return True
+        else:
+            if self.root.left is not None:
+                if self.root.left is not node:
+                    node_list.append(self.root.left)
+                else:
+                    return True
+            if self.root.right is not None:
+                if self.root.right is not node:
+                    node_list.append(self.root.right)
+                else:
+                    return True
+            node_list.pop().contains_Breadth(node)
+        return False
+    def display(self, node=None, level=0):
+        if not node:
+            node = self.root
+
+        if node.right:
+            self.display(node.right, level + 1)
+            print ('\t' * level), ('    /')
+
+        print ('\t' * level), node
+
+        if node.left:
+            print ('\t' * level), ('    \\')
+            self.display(node.left, level + 1)
 
     def print_Tree_Depth(self):
         print(self.root.content)

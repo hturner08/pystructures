@@ -1,7 +1,7 @@
 """Implements a binary search tree: a type of tree that uses an ordering on the elements of some
 collection to efficiently search for items in that collection (average-case O(log n) time)."""
 
-from . import Node, Tree
+from .binarytree import Node, Tree
 
 
 class BST_Node(Node):
@@ -155,17 +155,3 @@ class BST_Tree(Tree):
         self.root = new_root
         old_root.right = new_left_sub
         new_root.left = old_root
-
-    def display(self, node=None, level=0):
-        if not node:
-            node = self.root
-
-        if node.right:
-            self.display(node.right, level + 1)
-            print ('\t' * level), ('    /')
-
-        print ('\t' * level), node
-
-        if node.left:
-            print ('\t' * level), ('    \\')
-            self.display(node.left, level + 1)

@@ -12,3 +12,5 @@ class RBT_Node(BST_Node):
         super.__init__(content,left,right)
         self.color = color
 class RBT_Tree(BST_Tree):
+    def __init__(self):
+        return True

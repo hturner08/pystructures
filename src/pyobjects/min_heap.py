@@ -27,7 +27,7 @@ class Min_H_Node(Node):
                 self.right.add_Node(node)
         return False
 
-class Min_Heap:
+class Min_Heap(Tree):
     def add_Root(self, node):
         if self.root is None:
             self.root = node
