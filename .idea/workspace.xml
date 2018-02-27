@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c288118b-e42a-4dec-859a-ba5bf1db7a0c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pyobjects/binarysearchtree.py" afterPath="$PROJECT_DIR$/src/pyobjects/binarysearchtree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pyobjects/binarytree.py" afterPath="$PROJECT_DIR$/src/pyobjects/binarytree.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="binarysearchtree.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="binarysearchtree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pyobjects/binarysearchtree.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
@@ -109,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="binarytree.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="binarytree.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pyobjects/binarytree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="87" column="28" lean-forward="true" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
+            <state relative-caret-position="294">
+              <caret line="69" column="30" lean-forward="false" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -141,10 +141,10 @@
         <option value="$PROJECT_DIR$/src/pyobjects/redblacktree.py" />
         <option value="$PROJECT_DIR$/src/pyobjects/btree.py" />
         <option value="$PROJECT_DIR$/src/__init__.py" />
-        <option value="$PROJECT_DIR$/src/pyobjects/binarytree.py" />
         <option value="$PROJECT_DIR$/tests/tree_test.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/src/pyobjects/binarysearchtree.py" />
+        <option value="$PROJECT_DIR$/src/pyobjects/binarytree.py" />
       </list>
     </option>
   </component>
@@ -662,14 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pyobjects/binarytree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="87" column="28" lean-forward="true" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/tree_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -710,6 +702,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pyobjects/binarytree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="69" column="30" lean-forward="false" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
           <folding />
         </state>
       </provider>

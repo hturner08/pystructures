@@ -72,7 +72,7 @@ class Node:
 
     def __str__(self):
         "String representation."
-        return str(self.contents)
+        return str(self.content)
 
 class Tree:
 
