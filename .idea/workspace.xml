@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c288118b-e42a-4dec-859a-ba5bf1db7a0c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/setup.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/__init__.py" afterPath="$PROJECT_DIR$/src/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pyobjects/binarysearchtree.py" afterPath="$PROJECT_DIR$/src/pyobjects/binarysearchtree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pyobjects/binarytree.py" afterPath="$PROJECT_DIR$/src/pyobjects/binarytree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pyobjects/min_heap.py" afterPath="$PROJECT_DIR$/src/pyobjects/min_heap.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pyobjects/narytree.py" afterPath="$PROJECT_DIR$/src/pyobjects/narytree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pyobjects/redblacktree.py" afterPath="$PROJECT_DIR$/src/pyobjects/redblacktree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/tree_test.py" afterPath="$PROJECT_DIR$/tests/tree_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,33 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="avltree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pyobjects/avltree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-              <folding>
-                <marker date="1519621024511" expanded="true" signature="7424:10642" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".coverage" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pyobjects/.coverage">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="167" lean-forward="false" selection-start-line="0" selection-start-column="167" selection-end-line="0" selection-end-column="167" />
               <folding />
             </state>
           </provider>
@@ -108,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="btree.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="btree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pyobjects/btree.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="194">
@@ -116,6 +85,26 @@
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5">
+              <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,6 +144,7 @@
         <option value="$PROJECT_DIR$/src/pyobjects/binarysearchtree.py" />
         <option value="$PROJECT_DIR$/src/pyobjects/binarytree.py" />
         <option value="$PROJECT_DIR$/tests/tree_test.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -703,6 +693,22 @@
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
