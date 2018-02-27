@@ -66,8 +66,6 @@ class BST_Node(Node):
         elif self.content > other.content:
             return 1
         return -1
-    # def updateFactor(self):
-    #     self.balanceFactor = height(self.left) − height(self.right)
 
     def rotate_right(self):
         new_root = self.left
