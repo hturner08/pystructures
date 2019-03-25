@@ -10,9 +10,8 @@ The builtin data structures in Python: lists, tuples, dictionaries, strings, set
 Lists, strings and tuples are ordered sequences of objects. Unlike strings that contain only characters, list and tuples can contain any type of objects. Lists and tuples are like arrays. Tuples like strings are immutables. Lists are mutables so they can be extended or reduced at will. Sets are mutable unordered sequence of unique elements whereas frozensets are immutable sets.
 
 ## Pystructure Additions
-This package adds several other important data structures to python, including the following:
+This package will add several other important data structures to python, including the following:
 * Arrays
-* Sets
 * Stacks
 * Queues
   * Double-ended Queues
@@ -43,8 +42,8 @@ tree = new pyobjects.BinarySearchTree()
 
 ## Pull Request Suggestions
 ### * Finish implementing:
-  * Binary Search Tree
   * Red Black Tree
-### * Write unit tests for each data structure
+  * B Tree
+### * Write unit tests
 ### * Run SWIG library on wrapping files to wrap C library
 ### * Any of the current issues
